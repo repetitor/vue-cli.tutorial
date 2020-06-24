@@ -4,6 +4,7 @@
 
     <p><a href="/">home - hello world</a></p>
     <p><a href="/#/try">try</a></p>
+    <p><a href="/#/axios">axios</a></p>
   </div>
 </template>
 
