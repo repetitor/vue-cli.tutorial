@@ -2,6 +2,10 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <hr />
+    <p>template - p bottom</p>
+    <p><a href="/">home - hello world</a></p>
+    <p><a href="/#/try">try</a></p>
   </div>
 </template>
 
