@@ -1,17 +1,31 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+<!--    <img src="./assets/logo.png">-->
+
+    <p>App.vue - above hr</p>
     <hr />
-    <p>template - p bottom</p>
-    <p><a href="/">home - hello world</a></p>
-    <p><a href="/#/try">try</a></p>
+
+    <navigation202/>
+
+    <p><span style="color: #ff0000;">start - router-view</span></p>
+    <router-view/>
+    <p><span style="color: #ff0000;">finish - router-view</span></p>
+
+    <hr />
+    <p>App.vue - under hr</p>
+
   </div>
 </template>
 
 <script>
+import Navigation202 from './components/Navigation202'
+
 export default {
-  name: 'App'
+  name: 'App',
+
+  components: {
+    Navigation202
+  }
 }
 </script>
 
